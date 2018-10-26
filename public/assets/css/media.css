@@ -1,0 +1,108 @@
+@media(max-width: 768px){
+.navbar-brand img {
+    width: 30px;
+    margin-top: -7px;
+}
+.coler{
+	padding-bottom: 30px;
+}
+.phone-wrap{
+	text-align: left;
+}
+.item-cate .open>.res-drp.dropdown-menu {
+    left: 0;
+    top: 100%;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.14);
+}
+.item-cate .dropdown.open{
+	position: relative;
+}
+.item-cate .dropdown,.dropup{
+	position:relative;
+}
+.item-cate .dropdown{
+	position: relative !important;
+}
+.ad-img{
+	background-size: 100% 100% !important;
+}
+.res-no-padding{
+	padding:0;
+	margin-top: 30px;
+}
+.right-padding{
+	padding-right: 0px;
+}
+.wrap-sea-prods .nav-tabs li a {
+    background: none;
+    color: #000;
+    box-shadow: none !important;
+    border: none !important;
+    font-size: 12px;
+}
+.page-header h2 {
+    font-weight: 100;
+    font-size: 19px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.wrap-sea-prods {
+    padding: 20px;
+    background: #f4f4f4;
+    margin-top: 50px;
+}
+.rating {
+    border: none;
+    width: 132px;
+    margin: 0 auto;
+    margin-bottom: -3px;
+}
+.testimonial .no-padding{
+    padding: inherit; 
+}
+.themer-on-all-snd-testi p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.desgn{
+    text-align: left;
+}
+.owl-nav{
+    display: none;
+    }
+.owl-dots{
+    display: block;
+    }
+}
+@media(max-width: 480px){
+    .wrap-testi h2:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #01b6c1;
+    left: 38%;
+    top: 40px;
+}
+.clients .page-header h2:after{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 3px;
+    background: #01b6c1;
+    left: 38%;
+    top: 40px;
+}
+.testimonial .owl-nav{
+    display: none;
+}
+}
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 710px;
+        margin: 30px auto;
+    }
+}
